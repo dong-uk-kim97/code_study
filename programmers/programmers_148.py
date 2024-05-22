@@ -11,6 +11,6 @@ def solution(arr):
             break
         else:
             n+=1
-    for i in range((2**n-len(arr))):
+    for _ in range((2**n-len(arr))):
         arr.append(0)      
     return arr
