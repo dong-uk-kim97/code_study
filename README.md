@@ -6,4 +6,4 @@
 
 ### [filter 함수 정리](https://www.notion.so/filter-bf05b4c1f1b74e4a8f9e1ce4de607a2d?pvs=4)
 
-
+### [rfind, rindex 정리](https://www.notion.so/rfind-rindex-f5d3599eb5a74ae79aa60644ea746fbb?pvs=4)
