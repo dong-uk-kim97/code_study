@@ -6,12 +6,19 @@
 """
 
 def solution(s):
+    # 초기 결과값을 0으로 설정합니다.
     answer = 0
+    # 입력받은 문자열 s를 공백을 기준으로 분리하여 리스트로 만듭니다.
     s_list = list(s.split(" "))
 
+    # 리스트의 모든 요소를 순회합니다.
     for i in range(0, len(s_list)):
+        # 만약 현재 요소가 "Z"라면,
         if s_list[i] == "Z":
+            # 이전 요소의 값을 정수로 변환하여 결과값에서 뺍니다.
             answer -= int(s_list[i-1])
         else:
+            # 그렇지 않다면, 현재 요소의 값을 정수로 변환하여 결과값에 더합니다.
             answer += int(s_list[i])
+    # 최종 결과값을 반환합니다.
     return answer
