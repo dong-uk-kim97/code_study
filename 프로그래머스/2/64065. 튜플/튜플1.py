@@ -8,6 +8,7 @@ def solution(s):
         elements = tuples.split(',')
         for element in elements:
             number = int(element)
+            # 선착순으로 정답 객체에 할당하고, 중복을 확인하면서 루프를 진행한다.
             if number not in answer:
                 answer[number] = 1
-    return list(answer)
+    return list(answer) # 딕셔너리를 list로 만들면 키 값만 리스트에 담겨진다.
