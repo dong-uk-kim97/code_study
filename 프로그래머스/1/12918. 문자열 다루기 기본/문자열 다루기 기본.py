@@ -1,5 +1,3 @@
+import re
 def solution(s):
-    if (len(s)==4 or len(s)==6) and s.isdigit():
-        return True
-    else:
-        return False
+    return len(s) in {4,6} and bool(re.match('^[0-9]*$',s))
