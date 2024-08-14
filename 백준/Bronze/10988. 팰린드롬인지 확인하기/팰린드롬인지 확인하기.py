@@ -1,6 +1,7 @@
-word = list(str(input()))
-
-if list(reversed(word)) == word:
-    print(1)
-else:
-    print(0)
+s = input()
+def isPalindrome(s):
+    if s.lower()== s.lower()[::-1]:
+        return 1
+    else:
+        return 0
+print(isPalindrome(s))
