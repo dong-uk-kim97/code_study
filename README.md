@@ -1,11 +1,9 @@
-# 코딩테스트 대비 프로그래머스 문제 풀기
+# 코드 스터디
 
-## level.0 문제 풀면서 몰랐던 것들 정리
+## 개요
+이 저장소는 **프로그래머스**와 **백준** 플랫폼에서 제공하는 다양한 코딩 문제의 풀이를 담고 있습니다. 알고리즘 설계와 문제 해결 능력을 향상시키기 위한 자료로, 대부분의 풀이가 Python으로 작성되었습니다.
 
-### [eval 함수 정리](https://www.notion.so/eval-5eefcfd496c4431aadf850761851aad5?pvs=4)
-
-### [filter 함수 정리](https://www.notion.so/filter-bf05b4c1f1b74e4a8f9e1ce4de607a2d?pvs=4)
-
-### [rfind, rindex 정리](https://www.notion.so/rfind-rindex-f5d3599eb5a74ae79aa60644ea746fbb?pvs=4)
-
-### [iter, next, enumerate 함수 정리](https://www.notion.so/iter-next-enumerate-7a42151b6a5947ea9365dfa3d16ba8bf?pvs=4)
+## 내용 구성
+- **algorithm**: 일반적인 알고리즘 코드 모음
+- **programmers**: 프로그래머스 문제 풀이
+- **백준**: 백준 온라인 저지 문제 풀이
